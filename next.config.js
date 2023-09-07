@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
+    appDir: false,
   },
-  // basePath: '/metaverse', 
-  // assetPrefix: '/metaverse/', 
+  basePath: '/metaverse', 
+  assetPrefix: '/metaverse/', 
 };
 
 module.exports = nextConfig;
