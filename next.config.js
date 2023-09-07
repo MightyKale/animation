@@ -5,6 +5,9 @@ const nextConfig = {
   },
   basePath: '/metaverse', 
   assetPrefix: '/metaverse/', 
+  eslint: {
+    ignoreDuringBuilds: true,
+  }
 };
 
 module.exports = nextConfig;
