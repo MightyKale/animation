@@ -3,8 +3,6 @@ const nextConfig = {
   experimental: {
     appDir: false,
   },
-  basePath: '/metaverse', 
-  assetPrefix: '/metaverse/', 
   eslint: {
     ignoreDuringBuilds: true,
   }
